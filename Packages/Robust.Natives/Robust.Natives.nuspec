@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Robust.Natives</id>
+    <description>Native libraries used by RobustToolbox</description>
+    <version>0.1.0</version>
+    <authors>Space Wizards Federation</authors>
+    <repository type="git" url="https://github.com/space-wizards/native-build.git" />
+  
+    <license type="expression">MIT</license>
+
+    <dependencies>
+      <dependency id="Robust.Natives.Glfw" version="0.1.0" />
+      <dependency id="Robust.Natives.Angle" version="0.1.0" />
+      <dependency id="Robust.Natives.Fluidsynth" version="0.1.0" />
+      <dependency id="Robust.Natives.Freetype" version="0.1.0" />
+      <dependency id="Robust.Natives.OpenAL" version="0.1.0" />
+      <dependency id="Robust.Natives.Swnfd" version="0.1.0" />
+    </dependencies>
+
+  </metadata>
+  
+  <files>
+    <!-- Necessary to avoid nuget going haywire and packing bin/ and obj/ ??? -->
+    <file src="_" target="_" />
+  </files>
+</package>

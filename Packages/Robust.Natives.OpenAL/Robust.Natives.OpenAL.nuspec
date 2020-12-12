@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Robust.Natives.OpenAL</id>
+    <description>Native OpenAL library used by RobustToolbox</description>
+    <version>0.1.0</version>
+    <authors>Space Wizards Federation</authors>
+    <repository type="git" url="https://github.com/space-wizards/native-build.git" />
+    <license type="expression">LGPL-2.0-only</license>
+  </metadata>
+  <files>
+    <file src="../../natives/openal/1.20.1/openal32.dll" target="runtimes/win-x64/native/" />
+    <file src="../../natives/openal/1.20.1/libopenal.so" target="runtimes/linux-x64/native/" />
+    <file src="license.txt" />
+  </files>
+</package>

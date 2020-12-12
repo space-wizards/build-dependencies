@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Robust.Natives.Freetype</id>
+    <description>Native Freetype library used by RobustToolbox</description>
+    <version>0.1.0</version>
+    <authors>Space Wizards Federation</authors>
+    <repository type="git" url="https://github.com/space-wizards/native-build.git" />
+    <license type="expression">FTL</license>
+  </metadata>
+  <files>
+    <file src="../../natives/freetype/2.10.1/freetype6.dll" target="runtimes/win-x64/native/" />
+    <file src="../../natives/freetype/2.10.1/libfreetype.6.dylib" target="runtimes/osx-x64/native/" />
+    <file src="license.txt" />
+  </files>
+</package>

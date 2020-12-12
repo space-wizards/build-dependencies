@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!--
+  Not a real source project. We need a dummy csproj to run `dotnet pack`.
+  Since it can't (currently) do only a nuspec.
+  https://github.com/NuGet/Home/issues/4254
+  -->
+
+  <PropertyGroup>
+    <NuspecFile>Robust.Natives.nuspec</NuspecFile>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+</Project>

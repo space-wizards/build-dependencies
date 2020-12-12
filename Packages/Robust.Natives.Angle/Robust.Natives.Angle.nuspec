@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Robust.Natives.Angle</id>
+    <description>Native ANGLE library used by RobustToolbox</description>
+    <version>0.1.0</version>
+    <authors>Space Wizards Federation</authors>
+    <repository type="git" url="https://github.com/space-wizards/native-build.git" />
+    <license type="expression">BSD-3-Clause</license>
+  </metadata>
+  <files>
+    <file src="../../natives/ANGLE/2020-05-15-1/libEGL.dll" target="runtimes/win-x64/native/" />
+    <file src="../../natives/ANGLE/2020-05-15-1/libGLESv2.dll" target="runtimes/win-x64/native/" />
+    <file src="license.txt" />
+  </files>
+</package>
