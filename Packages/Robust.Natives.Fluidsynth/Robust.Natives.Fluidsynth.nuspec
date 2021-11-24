@@ -10,6 +10,7 @@
   </metadata>
   <files>
     <file src="../../natives/fluidsynth/2.1.0/*.dll" target="runtimes/win-x64/native/" />
+    <file src="../../natives/fluidsynth/2.1.3/libfluidsynth.so" target="runtimes/linux-x64/native/" />
     <file src="license.txt" />
   </files>
 </package>
