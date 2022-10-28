@@ -3,7 +3,7 @@
   <metadata>
     <id>Robust.Natives.Freetype</id>
     <description>Native Freetype library used by RobustToolbox</description>
-    <version>0.1.0</version>
+    <version>0.1.1</version>
     <authors>Space Wizards Federation</authors>
     <repository type="git" url="https://github.com/space-wizards/native-build.git" />
     <license type="expression">FTL</license>
@@ -11,6 +11,7 @@
   <files>
     <file src="../../natives/freetype/2.10.1/freetype6.dll" target="runtimes/win-x64/native/" />
     <file src="../../natives/freetype/2.10.1/libfreetype.6.dylib" target="runtimes/osx-x64/native/" />
+    <file src="../../natives/freetype/2.10.1/osx-arm64/libfreetype.6.dylib" target="runtimes/osx-arm64/native/" />
     <file src="license.txt" />
   </files>
 </package>

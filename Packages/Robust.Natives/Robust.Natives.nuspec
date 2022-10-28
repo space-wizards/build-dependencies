@@ -3,19 +3,21 @@
   <metadata>
     <id>Robust.Natives</id>
     <description>Native libraries used by RobustToolbox</description>
-    <version>0.1.1</version>
+    <version>0.1.2</version>
     <authors>Space Wizards Federation</authors>
     <repository type="git" url="https://github.com/space-wizards/native-build.git" />
 
     <license type="expression">MIT</license>
 
     <dependencies>
-      <dependency id="Robust.Natives.Glfw" version="0.1.0" />
+      <dependency id="Robust.Natives.Glfw" version="0.1.1" />
       <dependency id="Robust.Natives.Angle" version="0.1.1-chromium4758" />
-      <dependency id="Robust.Natives.Fluidsynth" version="0.1.0" />
-      <dependency id="Robust.Natives.Freetype" version="0.1.0" />
+      <dependency id="Robust.Natives.Fluidsynth" version="0.1.1" />
+      <dependency id="Robust.Natives.Freetype" version="0.1.1" />
+      <dependency id="Robust.Natives.Libsodium" version="0.1.0" />
       <dependency id="Robust.Natives.OpenAL" version="0.1.0" />
-      <dependency id="Robust.Natives.Swnfd" version="0.1.0" />
+      <dependency id="Robust.Natives.Swnfd" version="0.1.1" />
+      <dependency id="Robust.Natives.Zstd" version="0.1.0" />
     </dependencies>
 
   </metadata>
