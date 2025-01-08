@@ -3,46 +3,50 @@
   <metadata>
     <id>Robust.Natives.Cef</id>
     <description>Native CEF used by RobustToolbox</description>
-    <version>120.1.9</version>
+    <version>131.3.5</version>
     <authors>Space Wizards Federation</authors>
     <repository type="git" url="https://github.com/space-wizards/native-build.git" />
     <license type="expression">BSD-3-Clause</license>
   </metadata>
   <files>
     <file src="license.txt" />
-    <file src="../../natives/cef/cef_binary_120.1.9+g3914241+chromium-120.0.6099.109/windows64/readme.txt" target="readme_win-x64.txt" />
-    <file src="../../natives/cef/cef_binary_120.1.9+g3914241+chromium-120.0.6099.109/linux64/readme.txt" target="readme_linux-x64.txt" />
+    <file src="../../natives/cef/cef_binary_131.3.5+g573cec5+chromium-131.0.6778.205/windows64/readme.txt" target="readme_win-x64.txt" />
+    <file src="../../natives/cef/cef_binary_131.3.5+g573cec5+chromium-131.0.6778.205/linux64/readme.txt" target="readme_linux-x64.txt" />
     <!-- win-x64 -->
-    <file src="../../natives/cef/cef_binary_120.1.9+g3914241+chromium-120.0.6099.109/windows64/Release/libcef.dll" target="runtimes/win-x64/native/" />
-    <file src="../../natives/cef/cef_binary_120.1.9+g3914241+chromium-120.0.6099.109/windows64/Release/libEGL.dll" target="runtimes/win-x64/native/" />
-    <file src="../../natives/cef/cef_binary_120.1.9+g3914241+chromium-120.0.6099.109/windows64/Release/libGLESv2.dll" target="runtimes/win-x64/native/" />
-    <file src="../../natives/cef/cef_binary_120.1.9+g3914241+chromium-120.0.6099.109/windows64/Release/snapshot_blob.bin" target="runtimes/win-x64/native/" />
-    <file src="../../natives/cef/cef_binary_120.1.9+g3914241+chromium-120.0.6099.109/windows64/Release/d3dcompiler_47.dll" target="runtimes/win-x64/native/" />
-    <file src="../../natives/cef/cef_binary_120.1.9+g3914241+chromium-120.0.6099.109/windows64/Release/chrome_elf.dll" target="runtimes/win-x64/native/" />
-    <file src="../../natives/cef/cef_binary_120.1.9+g3914241+chromium-120.0.6099.109/windows64/Release/v8_context_snapshot.bin" target="runtimes/win-x64/native/" />
-    <file src="../../natives/cef/cef_binary_120.1.9+g3914241+chromium-120.0.6099.109/windows64/Release/vk_swiftshader.dll" target="runtimes/win-x64/native/" />
-    <file src="../../natives/cef/cef_binary_120.1.9+g3914241+chromium-120.0.6099.109/windows64/Release/vk_swiftshader_icd.json" target="runtimes/win-x64/native/" />
-    <file src="../../natives/cef/cef_binary_120.1.9+g3914241+chromium-120.0.6099.109/windows64/Release/vulkan-1.dll" target="runtimes/win-x64/native/" />
-    <file src="../../natives/cef/cef_binary_120.1.9+g3914241+chromium-120.0.6099.109/windows64/Resources/chrome_100_percent.pak" target="runtimes/win-x64/native/cef_resources/" />
-    <file src="../../natives/cef/cef_binary_120.1.9+g3914241+chromium-120.0.6099.109/windows64/Resources/chrome_200_percent.pak" target="runtimes/win-x64/native/cef_resources/" />
+    <file src="../../natives/cef/cef_binary_131.3.5+g573cec5+chromium-131.0.6778.205/windows64/Release/libcef.dll" target="runtimes/win-x64/native/" />
+    <file src="../../natives/cef/cef_binary_131.3.5+g573cec5+chromium-131.0.6778.205/windows64/Release/libEGL.dll" target="runtimes/win-x64/native/" />
+    <file src="../../natives/cef/cef_binary_131.3.5+g573cec5+chromium-131.0.6778.205/windows64/Release/libGLESv2.dll" target="runtimes/win-x64/native/" />
+    <file src="../../natives/cef/cef_binary_131.3.5+g573cec5+chromium-131.0.6778.205/windows64/Release/snapshot_blob.bin" target="runtimes/win-x64/native/" />
+    <file src="../../natives/cef/cef_binary_131.3.5+g573cec5+chromium-131.0.6778.205/windows64/Release/d3dcompiler_47.dll" target="runtimes/win-x64/native/" />
+    <file src="../../natives/cef/cef_binary_131.3.5+g573cec5+chromium-131.0.6778.205/windows64/Release/chrome_elf.dll" target="runtimes/win-x64/native/" />
+    <file src="../../natives/cef/cef_binary_131.3.5+g573cec5+chromium-131.0.6778.205/windows64/Release/v8_context_snapshot.bin" target="runtimes/win-x64/native/" />
+    <file src="../../natives/cef/cef_binary_131.3.5+g573cec5+chromium-131.0.6778.205/windows64/Release/vk_swiftshader.dll" target="runtimes/win-x64/native/" />
+    <file src="../../natives/cef/cef_binary_131.3.5+g573cec5+chromium-131.0.6778.205/windows64/Release/vk_swiftshader_icd.json" target="runtimes/win-x64/native/" />
+    <file src="../../natives/cef/cef_binary_131.3.5+g573cec5+chromium-131.0.6778.205/windows64/Release/vulkan-1.dll" target="runtimes/win-x64/native/" />
+    <!--
+    Nevermind, we have to move all the resources into the same directory as the cef module. CEF broke.
+    https://github.com/chromiumembedded/cef/issues/3749
+    -->
+    <file src="../../natives/cef/cef_binary_131.3.5+g573cec5+chromium-131.0.6778.205/windows64/Resources/chrome_100_percent.pak" target="runtimes/win-x64/native/" />
+    <file src="../../natives/cef/cef_binary_131.3.5+g573cec5+chromium-131.0.6778.205/windows64/Resources/chrome_200_percent.pak" target="runtimes/win-x64/native/" />
     <!-- icudtl.dat is not in cef_resources because... -->
-    <file src="../../natives/cef/cef_binary_120.1.9+g3914241+chromium-120.0.6099.109/windows64/Resources/icudtl.dat" target="runtimes/win-x64/native/" />
-    <file src="../../natives/cef/cef_binary_120.1.9+g3914241+chromium-120.0.6099.109/windows64/Resources/resources.pak" target="runtimes/win-x64/native/cef_resources/" />
-    <file src="../../natives/cef/cef_binary_120.1.9+g3914241+chromium-120.0.6099.109/windows64/Resources/locales/en-US.pak" target="runtimes/win-x64/native/cef_resources/locales/" />
+    <file src="../../natives/cef/cef_binary_131.3.5+g573cec5+chromium-131.0.6778.205/windows64/Resources/icudtl.dat" target="runtimes/win-x64/native/" />
+    <file src="../../natives/cef/cef_binary_131.3.5+g573cec5+chromium-131.0.6778.205/windows64/Resources/resources.pak" target="runtimes/win-x64/native/" />
+    <file src="../../natives/cef/cef_binary_131.3.5+g573cec5+chromium-131.0.6778.205/windows64/Resources/locales/en-US.pak" target="runtimes/win-x64/native/cef_resources/locales/" />
     <!-- linux-x64 -->
-    <file src="../../natives/cef/cef_binary_120.1.9+g3914241+chromium-120.0.6099.109/linux64/Release/libcef.so" target="runtimes/linux-x64/native/" />
-    <file src="../../natives/cef/cef_binary_120.1.9+g3914241+chromium-120.0.6099.109/linux64/Release/libEGL.so" target="runtimes/linux-x64/native/" />
-    <file src="../../natives/cef/cef_binary_120.1.9+g3914241+chromium-120.0.6099.109/linux64/Release/libGLESv2.so" target="runtimes/linux-x64/native/" />
-    <file src="../../natives/cef/cef_binary_120.1.9+g3914241+chromium-120.0.6099.109/linux64/Release/libvk_swiftshader.so" target="runtimes/linux-x64/native/" />
-    <file src="../../natives/cef/cef_binary_120.1.9+g3914241+chromium-120.0.6099.109/linux64/Release/libvulkan.so.1" target="runtimes/linux-x64/native/" />
-    <file src="../../natives/cef/cef_binary_120.1.9+g3914241+chromium-120.0.6099.109/linux64/Release/snapshot_blob.bin" target="runtimes/linux-x64/native/" />
-    <file src="../../natives/cef/cef_binary_120.1.9+g3914241+chromium-120.0.6099.109/linux64/Release/v8_context_snapshot.bin" target="runtimes/linux-x64/native/" />
-    <file src="../../natives/cef/cef_binary_120.1.9+g3914241+chromium-120.0.6099.109/linux64/Release/vk_swiftshader_icd.json" target="runtimes/linux-x64/native/" />
-    <file src="../../natives/cef/cef_binary_120.1.9+g3914241+chromium-120.0.6099.109/linux64/Resources/chrome_100_percent.pak" target="runtimes/linux-x64/native/cef_resources/" />
-    <file src="../../natives/cef/cef_binary_120.1.9+g3914241+chromium-120.0.6099.109/linux64/Resources/chrome_200_percent.pak" target="runtimes/linux-x64/native/cef_resources/" />
+    <file src="../../natives/cef/cef_binary_131.3.5+g573cec5+chromium-131.0.6778.205/linux64/Release/libcef.so" target="runtimes/linux-x64/native/" />
+    <file src="../../natives/cef/cef_binary_131.3.5+g573cec5+chromium-131.0.6778.205/linux64/Release/libEGL.so" target="runtimes/linux-x64/native/" />
+    <file src="../../natives/cef/cef_binary_131.3.5+g573cec5+chromium-131.0.6778.205/linux64/Release/libGLESv2.so" target="runtimes/linux-x64/native/" />
+    <file src="../../natives/cef/cef_binary_131.3.5+g573cec5+chromium-131.0.6778.205/linux64/Release/libvk_swiftshader.so" target="runtimes/linux-x64/native/" />
+    <file src="../../natives/cef/cef_binary_131.3.5+g573cec5+chromium-131.0.6778.205/linux64/Release/libvulkan.so.1" target="runtimes/linux-x64/native/" />
+    <file src="../../natives/cef/cef_binary_131.3.5+g573cec5+chromium-131.0.6778.205/linux64/Release/snapshot_blob.bin" target="runtimes/linux-x64/native/" />
+    <file src="../../natives/cef/cef_binary_131.3.5+g573cec5+chromium-131.0.6778.205/linux64/Release/v8_context_snapshot.bin" target="runtimes/linux-x64/native/" />
+    <file src="../../natives/cef/cef_binary_131.3.5+g573cec5+chromium-131.0.6778.205/linux64/Release/vk_swiftshader_icd.json" target="runtimes/linux-x64/native/" />
+    <file src="../../natives/cef/cef_binary_131.3.5+g573cec5+chromium-131.0.6778.205/linux64/Resources/chrome_100_percent.pak" target="runtimes/linux-x64/native/" />
+    <file src="../../natives/cef/cef_binary_131.3.5+g573cec5+chromium-131.0.6778.205/linux64/Resources/chrome_200_percent.pak" target="runtimes/linux-x64/native/" />
     <!-- icudtl.dat is not in cef_resources because... -->
-    <file src="../../natives/cef/cef_binary_120.1.9+g3914241+chromium-120.0.6099.109/linux64/Resources/icudtl.dat" target="runtimes/linux-x64/native/" />
-    <file src="../../natives/cef/cef_binary_120.1.9+g3914241+chromium-120.0.6099.109/linux64/Resources/resources.pak" target="runtimes/linux-x64/native/cef_resources/" />
-    <file src="../../natives/cef/cef_binary_120.1.9+g3914241+chromium-120.0.6099.109/linux64/Resources/locales/en-US.pak" target="runtimes/linux-x64/native/cef_resources/locales/" />
+    <file src="../../natives/cef/cef_binary_131.3.5+g573cec5+chromium-131.0.6778.205/linux64/Resources/icudtl.dat" target="runtimes/linux-x64/native/" />
+    <file src="../../natives/cef/cef_binary_131.3.5+g573cec5+chromium-131.0.6778.205/linux64/Resources/resources.pak" target="runtimes/linux-x64/native/" />
+    <file src="../../natives/cef/cef_binary_131.3.5+g573cec5+chromium-131.0.6778.205/linux64/Resources/locales/en-US.pak" target="runtimes/linux-x64/native/cef_resources/locales/" />
   </files>
 </package>
