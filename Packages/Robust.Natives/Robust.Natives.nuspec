@@ -10,7 +10,7 @@
     <license type="expression">MIT</license>
 
     <dependencies>
-      <dependency id="Robust.Natives.Glfw" version="0.1.0" />
+      <dependency id="Robust.Natives.Glfw" version="0.2.0-glfw3.4" />
       <dependency id="Robust.Natives.Angle" version="0.2.0-chromium7258" />
       <dependency id="Robust.Natives.Fluidsynth" version="0.2.0-fluidsynth2.4.6" />
       <dependency id="Robust.Natives.Freetype" version="0.2.0-freetype2.13.3" />
