@@ -2,6 +2,8 @@
 
 Set-Location (Split-Path ($MyInvocation.MyCommand.Path))
 
+Remove-Item Packages/*/bin -Recurse
+
 New-Item -Force -ItemType "directory" packages_build
 
 Get-ChildItem -Recurse Packages/*.nupkg | Remove-Item

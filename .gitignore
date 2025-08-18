@@ -3,5 +3,4 @@ packages_build/
 bin/
 obj/
 
-# Not putting CEF in here, download it yourself.
-natives/cef
+natives/

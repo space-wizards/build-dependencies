@@ -3,14 +3,18 @@
   <metadata>
     <id>Robust.Natives.OpenAL</id>
     <description>Native OpenAL library used by RobustToolbox</description>
-    <version>0.1.0</version>
+    <version>0.2.0-openal1.24.3</version>
     <authors>Space Wizards Federation</authors>
     <repository type="git" url="https://github.com/space-wizards/native-build.git" />
     <license type="expression">LGPL-2.0-only</license>
   </metadata>
   <files>
-    <file src="../../natives/openal/1.20.1/openal32.dll" target="runtimes/win-x64/native/" />
-    <file src="../../natives/openal/1.20.1/libopenal.so" target="runtimes/linux-x64/native/" />
+    <file src="../../natives/openal/1.24.3/win-x64/openal32.dll" target="runtimes/win-x64/native/" />
+    <file src="../../natives/openal/1.24.3/win-arm64/openal32.dll" target="runtimes/win-arm64/native/" />
+    <file src="../../natives/openal/1.24.3/linux-x64/libopenal.so.1" target="runtimes/linux-x64/native/" />
+    <file src="../../natives/openal/1.24.3/linux-arm64/libopenal.so.1" target="runtimes/linux-arm64/native/" />
+    <file src="../../natives/openal/1.24.3/osx-x64/libopenal.1.dylib" target="runtimes/osx-x64/native/" />
+    <file src="../../natives/openal/1.24.3/osx-arm64/libopenal.1.dylib" target="runtimes/osx-arm64/native/" />
     <file src="license.txt" />
   </files>
 </package>

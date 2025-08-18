@@ -3,13 +3,18 @@
   <metadata>
     <id>Robust.Natives.Fluidsynth</id>
     <description>Native Fluidsynth library used by RobustToolbox</description>
-    <version>0.1.0</version>
+    <version>0.2.0-fluidsynth2.4.6</version>
     <authors>Space Wizards Federation</authors>
     <repository type="git" url="https://github.com/space-wizards/native-build.git" />
     <license type="expression">LGPL-2.1-only</license>
   </metadata>
   <files>
-    <file src="../../natives/fluidsynth/2.1.0/*.dll" target="runtimes/win-x64/native/" />
+    <file src="../../natives/fluidsynth/2.4.6/linux-arm64/libfluidsynth.so.3" target="runtimes/linux-arm64/native/" />
+    <file src="../../natives/fluidsynth/2.4.6/linux-x64/libfluidsynth.so.3" target="runtimes/linux-x64/native/" />
+    <file src="../../natives/fluidsynth/2.4.6/win-arm64/libfluidsynth-3.dll" target="runtimes/win-arm64/native/" />
+    <file src="../../natives/fluidsynth/2.4.6/win-x64/libfluidsynth-3.dll" target="runtimes/win-x64/native/" />
+    <file src="../../natives/fluidsynth/2.4.6/osx-arm64/libfluidsynth.3.dylib" target="runtimes/osx-arm64/native/" />
+    <file src="../../natives/fluidsynth/2.4.6/osx-x64/libfluidsynth.3.dylib" target="runtimes/osx-x64/native/" />
     <file src="license.txt" />
   </files>
 </package>

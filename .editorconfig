@@ -1,3 +1,8 @@
+root = true
+
+[*]
+insert_final_newline = true
+
 [*.{csproj,nuspec}]
 indent_style = space
 indent_size = 2
