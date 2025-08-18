@@ -3,7 +3,7 @@
   <metadata>
     <id>Robust.Natives</id>
     <description>Native libraries used by RobustToolbox</description>
-    <version>0.2.0</version>
+    <version>0.2.1</version>
     <authors>Space Wizards Federation</authors>
     <repository type="git" url="https://github.com/space-wizards/native-build.git" />
 
