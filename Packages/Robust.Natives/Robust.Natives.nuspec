@@ -3,20 +3,20 @@
   <metadata>
     <id>Robust.Natives</id>
     <description>Native libraries used by RobustToolbox</description>
-    <version>0.2.1</version>
+    <version>0.2.2</version>
     <authors>Space Wizards Federation</authors>
     <repository type="git" url="https://github.com/space-wizards/native-build.git" />
 
     <license type="expression">MIT</license>
 
     <dependencies>
-      <dependency id="Robust.Natives.Glfw" version="0.2.0-glfw3.4" />
-      <dependency id="Robust.Natives.Angle" version="0.2.0-chromium7258" />
-      <dependency id="Robust.Natives.Fluidsynth" version="0.2.0-fluidsynth2.4.6" />
-      <dependency id="Robust.Natives.Freetype" version="0.2.0-freetype2.13.3" />
-      <dependency id="Robust.Natives.OpenAL" version="0.2.0-openal1.24.3" />
-      <dependency id="Robust.Natives.Sdl3" version="0.1.0-sdl3.2.20" />
-      <dependency id="Robust.Natives.Zstd" version="0.1.0-zstd1.5.7" />
+      <dependency id="Robust.Natives.Glfw" version="0.2.1" />
+      <dependency id="Robust.Natives.Angle" version="0.2.1-chromium7440" />
+      <dependency id="Robust.Natives.Fluidsynth" version="0.2.1-fluidsynth2.4.6" />
+      <dependency id="Robust.Natives.Freetype" version="0.2.1-freetype2.13.3" />
+      <dependency id="Robust.Natives.OpenAL" version="0.2.1-openal1.24.3" />
+      <dependency id="Robust.Natives.Sdl3" version="0.1.1-sdl3.2.20" />
+      <dependency id="Robust.Natives.Zstd" version="0.1.1-zstd1.5.7" />
       <dependency id="Robust.Natives.Swnfd" version="0.1.0" />
     </dependencies>
 

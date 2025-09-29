@@ -3,16 +3,16 @@
   <metadata>
     <id>Robust.Natives.Angle</id>
     <description>Native ANGLE library used by RobustToolbox</description>
-    <version>0.2.0-chromium7258</version>
+    <version>0.2.1-chromium7440</version>
     <authors>Space Wizards Federation</authors>
     <repository type="git" url="https://github.com/space-wizards/native-build.git" />
     <license type="expression">BSD-3-Clause</license>
   </metadata>
   <files>
-    <file src="../../natives/ANGLE/chromium_7258/win-x64/libEGL.dll" target="runtimes/win-x64/native/" />
-    <file src="../../natives/ANGLE/chromium_7258/win-x64/libGLESv2.dll" target="runtimes/win-x64/native/" />
-    <file src="../../natives/ANGLE/chromium_7258/win-arm64/libEGL.dll" target="runtimes/win-arm64/native/" />
-    <file src="../../natives/ANGLE/chromium_7258/win-arm64/libGLESv2.dll" target="runtimes/win-arm64/native/" />
+    <file src="../../natives/ANGLE/chromium_7440/win-x64/libEGL.dll" target="runtimes/win-x64/native/" />
+    <file src="../../natives/ANGLE/chromium_7440/win-x64/libGLESv2.dll" target="runtimes/win-x64/native/" />
+    <file src="../../natives/ANGLE/chromium_7440/win-arm64/libEGL.dll" target="runtimes/win-arm64/native/" />
+    <file src="../../natives/ANGLE/chromium_7440/win-arm64/libGLESv2.dll" target="runtimes/win-arm64/native/" />
     <file src="license.txt" />
   </files>
 </package>
