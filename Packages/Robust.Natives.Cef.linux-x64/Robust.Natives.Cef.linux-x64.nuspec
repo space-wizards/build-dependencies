@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Robust.Natives.Cef.linux-x64</id>
+    <description>Native CEF used by RobustToolbox</description>
+    <version>147.0.10</version>
+    <authors>Space Wizards Federation</authors>
+    <repository type="git" url="https://github.com/space-wizards/native-build.git" />
+    <license type="expression">BSD-3-Clause</license>
+  </metadata>
+  <files>
+    <file src="license.txt" />
+    <file src="../../natives/cef/cef_binary_147.0.10+gd58e84d+chromium-147.0.7727.118/linux64/readme.txt" target="readme_linux-x64.txt" />
+    <file src="../../natives/cef/cef_binary_147.0.10+gd58e84d+chromium-147.0.7727.118/linux64/Release/libcef.so" target="runtimes/linux-x64/native/" />
+    <file src="../../natives/cef/cef_binary_147.0.10+gd58e84d+chromium-147.0.7727.118/linux64/Release/libEGL.so" target="runtimes/linux-x64/native/" />
+    <file src="../../natives/cef/cef_binary_147.0.10+gd58e84d+chromium-147.0.7727.118/linux64/Release/libGLESv2.so" target="runtimes/linux-x64/native/" />
+    <file src="../../natives/cef/cef_binary_147.0.10+gd58e84d+chromium-147.0.7727.118/linux64/Release/libvk_swiftshader.so" target="runtimes/linux-x64/native/" />
+    <file src="../../natives/cef/cef_binary_147.0.10+gd58e84d+chromium-147.0.7727.118/linux64/Release/libvulkan.so.1" target="runtimes/linux-x64/native/" />
+    <file src="../../natives/cef/cef_binary_147.0.10+gd58e84d+chromium-147.0.7727.118/linux64/Release/v8_context_snapshot.bin" target="runtimes/linux-x64/native/" />
+    <file src="../../natives/cef/cef_binary_147.0.10+gd58e84d+chromium-147.0.7727.118/linux64/Release/vk_swiftshader_icd.json" target="runtimes/linux-x64/native/" />
+    <file src="../../natives/cef/cef_binary_147.0.10+gd58e84d+chromium-147.0.7727.118/linux64/Resources/chrome_100_percent.pak" target="runtimes/linux-x64/native/" />
+    <file src="../../natives/cef/cef_binary_147.0.10+gd58e84d+chromium-147.0.7727.118/linux64/Resources/chrome_200_percent.pak" target="runtimes/linux-x64/native/" />
+    <!-- icudtl.dat is not in cef_resources because... -->
+    <file src="../../natives/cef/cef_binary_147.0.10+gd58e84d+chromium-147.0.7727.118/linux64/Resources/icudtl.dat" target="runtimes/linux-x64/native/" />
+    <file src="../../natives/cef/cef_binary_147.0.10+gd58e84d+chromium-147.0.7727.118/linux64/Resources/resources.pak" target="runtimes/linux-x64/native/" />
+    <file src="../../natives/cef/cef_binary_147.0.10+gd58e84d+chromium-147.0.7727.118/linux64/Resources/locales/en-US.pak" target="runtimes/linux-x64/native/cef_resources/locales/" />
+  </files>
+</package>
