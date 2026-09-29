@@ -9,12 +9,12 @@
     <license type="expression">Zlib</license>
   </metadata>
   <files>
-    <file src="../../natives/SDL3/3.4.18/win-x64/SDL3.dll" target="runtimes/win-x64/native/" />
-    <file src="../../natives/SDL3/3.4.18/win-arm64/SDL3.dll" target="runtimes/win-arm64/native/" />
-    <file src="../../natives/SDL3/3.4.18/osx-x64/libSDL3.0.dylib" target="runtimes/osx-x64/native/" />
-    <file src="../../natives/SDL3/3.4.18/osx-arm64/libSDL3.0.dylib" target="runtimes/osx-arm64/native/" />
-    <file src="../../natives/SDL3/3.4.18/linux-x64/libSDL3.so.0" target="runtimes/linux-x64/native/" />
-    <file src="../../natives/SDL3/3.4.18/linux-arm64/libSDL3.so.0" target="runtimes/linux-arm64/native/" />
+    <file src="../../natives/SDL/3.4.18/win-x64/SDL3.dll" target="runtimes/win-x64/native/" />
+    <file src="../../natives/SDL/3.4.18/win-arm64/SDL3.dll" target="runtimes/win-arm64/native/" />
+    <file src="../../natives/SDL/3.4.18/osx-x64/libSDL3.0.dylib" target="runtimes/osx-x64/native/" />
+    <file src="../../natives/SDL/3.4.18/osx-arm64/libSDL3.0.dylib" target="runtimes/osx-arm64/native/" />
+    <file src="../../natives/SDL/3.4.18/linux-x64/libSDL3.so.0" target="runtimes/linux-x64/native/" />
+    <file src="../../natives/SDL/3.4.18/linux-arm64/libSDL3.so.0" target="runtimes/linux-arm64/native/" />
     <file src="license.txt" />
   </files>
 </package>
